@@ -1,0 +1,217 @@
+@media (max-width: 1120px) {
+  .menu_lists {
+    display: none;
+  }
+  .btn-burger {
+    display: block;
+    position: fixed;
+    z-index: 9;
+    right: 50px;
+    background: black;
+  }
+
+  .open .menu_lists {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    font-size: 34px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+    background: red;
+    padding: 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding: 0px 20px;
+  }
+  .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .main2 .img1 {
+    display: none;
+  }
+  .contentn_m2 {
+    justify-content: center;
+  }
+
+  .main3 {
+    padding: 30px 0px;
+  }
+
+  .texts {
+    align-items: center;
+  }
+
+  /* main4*/
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 27px;
+  }
+
+  /* CONTUCT */
+
+  .answer1 input {
+    width: 500px;
+  }
+  .answer2 input {
+    width: 500px;
+  }
+  .answer3 input {
+    width: 500px;
+  }
+  .answer4 input {
+    width: 500px;
+  }
+}
+@media (max-width: 555px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .text1 h1 {
+    font-size: 65px;
+    color: #fff;
+  }
+
+  .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .main2 .img1 {
+    display: none;
+  }
+  .contentn_m2 {
+    justify-content: center;
+  }
+
+  .main3 {
+    padding: 30px 0px;
+  }
+
+  .texts {
+    align-items: center;
+  }
+  .map {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  /* main4*/
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 27px;
+  }
+
+  /* CONTUCT */
+
+  .answer1 input {
+    width: 500px;
+  }
+  .answer2 input {
+    width: 500px;
+  }
+  .answer3 input {
+    width: 500px;
+  }
+  .answer4 input {
+    width: 500px;
+  }
+}
+
+@media (max-width: 415px) {
+  .container {
+    padding: 0px 10px;
+  }
+
+  .text1 h1 {
+    font-size: 45px;
+    color: #fff;
+  }
+
+  .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .main2 .img1 {
+    display: none;
+  }
+  .contentn_m2 {
+    justify-content: center;
+  }
+
+  .main3 {
+    padding: 30px 0px;
+  }
+
+  .texts {
+    align-items: center;
+  }
+  .map {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .text2_m3 {
+    width: 350px;
+    font-size: 15px;
+  }
+
+  .text1_m3 h1 {
+    font-size: 28px;
+  }
+
+  /* main4*/
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
+  .card {
+    width: 350px;
+  }
+
+  .text_c p {
+    font-size: 15px;
+    line-height: 15px;
+    width: 350px;
+  }
+
+  /* CONTUCT */
+
+  .answer1 input {
+    width: 300px;
+  }
+  .answer2 input {
+    width: 300px;
+  }
+  .answer3 input {
+    width: 300px;
+  }
+  .answer4 input {
+    width: 300px;
+  }
+
+  .m p {
+    font-size: 20px;
+  }
+}
